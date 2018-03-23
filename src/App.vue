@@ -11,11 +11,4 @@ export default {
 </script>
 
 <style>
-#app {
-  width: 1080px;
-  margin: 0 auto;
-}
-body{
-  background-color: #def6fc;
-}
 </style>

@@ -12,11 +12,6 @@ export default {
   components: {
     hero: Hero,
   },
-  data() {
-    return {
-      
-    };
-  },
 };
 </script>
 
