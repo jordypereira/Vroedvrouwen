@@ -6,9 +6,13 @@
 
 <script>
 export default {
-  name: 'App',
+  name: "App"
 };
 </script>
 
 <style>
+body {
+  margin: 0;
+  font-family: Source Sans pro, Helvetica, sans-serif;
+}
 </style>
