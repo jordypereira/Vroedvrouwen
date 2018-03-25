@@ -6,13 +6,26 @@
 
 <script>
 export default {
-  name: "App"
+  name: 'App',
 };
 </script>
 
+<style lang="scss">
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+</style>
+
 <style>
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+:root {
+  --lightblue: #def6fc;
+  --bg-color: var(--lightblue);
+  --lightgray: #444340;
+  --blue: #3da7db;
+}
 body {
-  margin: 0;
   font-family: Source Sans pro, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+  font-size: 16px;
+  font-weight: 300;
 }
 </style>
