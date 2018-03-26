@@ -17,17 +17,19 @@ export default {
 </script>
 
 <style scoped>
-#hero{
+div {
   text-align: center;
   background-color: #fff;
   padding: 2.4em 0;
 }
-#hero img{
+img {
   max-height: 150px;
   max-width: 100%;
 }
-#hero p{
+p {
+  padding: 15px;
   font-size: 18px;
   color: #a8a6a1;
+  margin: 0;
 }
 </style>

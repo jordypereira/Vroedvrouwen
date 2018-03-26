@@ -3,7 +3,7 @@
     <div class="inner" v-for="(card, i) in cards" :key="i">
       <h3>{{ card.title }}</h3>
       <img :src="card.img" :alt="card.imgInfo" class="img-fluid">
-      <p>{{ card.text }} <a :href="card.link">Lees verder...</a></p>
+      <p>{{ card.text }} <router-link :to="card.link"> Lees verder</router-link></p>
     </div>
   </div>
 </template>
@@ -30,6 +30,7 @@ export default {
   flex-basis: 100%;
   flex-flow: column nowrap;
   padding: 0px 15px;
+  min-width: 300px;
 }
 @media screen and (min-width: 768px) {
   .inner {

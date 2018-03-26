@@ -3,9 +3,9 @@
     <app-header></app-header>
     <img src="./assets/images/buik-bloem-breed.jpg" alt="Picture of a belly" class="img-fluid">
     <main>
-      <blockquote>
+      <h2>
         <em><strong>Welkom aan alle toekomstige ouders!</strong></em>
-      </blockquote>
+      </h2>
         <p v-for="(p, i) in content" v-html="p" :key="i"></p>
         <pagecards :cards="cards"></pagecards>
     </main>
@@ -19,7 +19,7 @@ import Footer from './components/Footer';
 import PageCards from './components/PageCards';
 
 export default {
-  name: 'App',
+  name: 'HomePage',
   components: {
     'app-header': Header,
     'app-footer': Footer,
@@ -30,27 +30,30 @@ export default {
       cards: [
         {
           title: '- Wie zijn we? -',
+          // eslint-disable-next-line
           img: require('./assets/images/duo.jpg'),
           imgInfo: 'Picture of Liesa and Marieke',
           text:
             'Liesa De Breucker In juni 2016 studeerde ik af als vroedvrouw aan de Odisee hogeschool te Sint-Niklaas. De opleiding gaf me veel leerrijke momenten, waaronder de stage-ervaring in Afrika het toppunt was. Mijn zelfstandigheid heeft hier een enorme boost door gekregen. Daarnaast was de uiteindelijke Bachelorproef een heel belangrijke topic van de opleiding. Mijn interesse…',
-          link: '/',
+          link: '/wie',
         },
         {
           title: '- Wat doen we? -',
+          // eslint-disable-next-line
           img: require('./assets/images/buik-bel.jpg'),
           imgInfo: 'Picture of a belly',
           text:
             'Van bij het begin van uw zwangerschap staan wij u bij voor een optimale opvolging. Er wordt een zwangerschapsdossier opgemaakt en de opvolging bestaat uit een persoonlijke aanpak. Wij staan ter jullie beschikking 24/24 en 7/7 voor een optimale begeleiding en voor het beantwoorden van jullie vragen. Wij bieden u: Prenatale consultaties (individueel) + GVO:…',
-          link: '/',
+          link: '/wat',
         },
         {
           title: '- Contact -',
+          // eslint-disable-next-line
           img: require('./assets/images/buik-bel-zw.jpg'),
           imgInfo: 'Picture of a belly in black and white',
           text:
             'Regio? Nieuwkerken, Groot-Beveren, Kruibeke, Linkeroever,  Zwijndrecht en Burcht. U kan ons 24/24 en 7/7 telefonisch bereiken. Liesa: +32 472/66.50.53 Marieke: +32 476/58.55.50',
-          link: '/',
+          link: '/contact',
         },
       ],
       content: [
@@ -66,11 +69,9 @@ export default {
 };
 </script>
 
-<style>
-blockquote {
+<style scoped>
+h2 {
   color: var(--blue);
-  position: relative;
-  font-size: 1.1rem;
 }
 main {
   background-color: #fff;

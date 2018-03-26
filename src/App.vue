@@ -28,4 +28,28 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
+p {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1180px;
+  }
+}
 </style>

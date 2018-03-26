@@ -2,22 +2,22 @@
   <nav class="navbar navbar-expand-lg navbar-light">
     <!-- eslint-disable-next-line -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span> Menu
     </button>
 
     <div class="collapse navbar-collapse" id="navbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Vroedvrouw!</a>
+          <router-link class="nav-link" to="/" exact>Vroedvrouw!</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Wie zijn we?</a>
+          <router-link class="nav-link" to="/wie" exact>Wie zijn we?</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Wat doen we?</a>
+          <router-link class="nav-link" to="/wat" exact>Wat doen we?</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <router-link class="nav-link" to="/contact" exact>Contact</router-link>
         </li>
       </ul>
     </div>
@@ -43,6 +43,10 @@ $('ul.nav a')
 
 <style scoped>
 #navbar {
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.navbar {
   justify-content: center;
 }
 </style>
