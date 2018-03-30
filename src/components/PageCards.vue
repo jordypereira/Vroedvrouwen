@@ -1,7 +1,7 @@
 <template>
   <div class="outer">
     <div class="inner" v-for="(card, i) in cards" :key="i">
-      <h3>{{ card.title }}</h3>
+      <h5>{{ card.title }}</h5>
       <img :src="card.img" :alt="card.imgInfo" class="img-fluid">
       <p>{{ card.text }} <router-link :to="card.link"> Lees verder</router-link></p>
     </div>
@@ -32,12 +32,15 @@ export default {
   padding: 0px 15px;
   min-width: 300px;
 }
+img {
+  padding: 10px 0;
+}
 @media screen and (min-width: 768px) {
   .inner {
     flex-basis: 30%;
   }
 }
-h3 {
+h5 {
   text-align: center;
 }
 </style>

@@ -11,7 +11,6 @@
       <p><em>Wij bieden u:</em></p>
       <ul>
       <li>Prenatale consultaties (individueel) + GVO: om jullie voor te bereiden op de komst van jullie kindje en alle nodige parameters tijdens de zwangerschap op te volgen.</li>
-      <li>Begeleiding arbeid thuis.</li>
       <li>Postnatale consultaties:  na de bevalling komen we langs om de gezondheid van jou en je kindje te garanderen. Hierbij worden alle belangrijke parameters gecontroleerd (bloeddruk, baarmoeder, T°…) en wordt de baby gewogen. Verder bieden wij hulp en begeleiding van de borst- en flesvoeding.</li>
       <li>Borstvoedingsbegeleiding aan huis!</li>
       </ul>
@@ -20,13 +19,13 @@
       <p>Bij het optreden van vragen of complicaties wordt de raad en hulp van derden (gynaecoloog, kinesist, kinderarts,…) gevraagd. Dit zorgt voor een goede multidisciplinaire zorgverlening.</p>
       <div class="row">
         <div class="col-sm">
-          <img src="./assets/images/baby-weegschaal.jpg" alt="Baby laying on a scale">
+          <img src="./assets/images/baby-weegschaal.jpg" alt="Baby laying on a scale" class="img-fluid">
         </div>
         <div class="col-sm">
-          <img src="./assets/images/buik-bloem-small.jpg" alt="Picture of a Belly with a flower" style="width: 230px;">
+          <img src="./assets/images/buik-bloem-small.jpg" alt="Picture of a Belly with a flower" style="width: 230px;" class="img-fluid">
         </div>
         <div class="col-sm">
-          <img src="./assets/images/baby-voeten.jpg" alt="Baby feet">
+          <img src="./assets/images/baby-voeten.jpg" alt="Baby feet" class="img-fluid">
         </div>
       </div>
     </main>
@@ -35,41 +34,18 @@
 </template>
 
 <script>
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/TheHeader';
+import TheFooter from './components/TheFooter';
 
 export default {
   name: 'Wat',
   components: {
     'app-header': Header,
-    'app-footer': Footer,
+    'app-footer': TheFooter,
   },
 };
 </script>
 
-<style scoped>
-main {
-  background-color: #fff;
-  padding: 20px 10px;
-  color: var(--lightgray);
-}
-p {
-  margin-bottom: 1.6em;
-}
-a {
-  text-decoration: none;
-  color: var(--blue);
-}
-.profileImage {
-  width: 183px;
-  margin-left: 1.6em;
-}
-.row {
-  max-width: 100%;
-}
-@media screen and (min-width: 768px) {
-  main {
-    padding: 20px 40px;
-  }
-}
+<style>
+
 </style>

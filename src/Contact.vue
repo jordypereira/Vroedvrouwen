@@ -17,38 +17,14 @@
 </template>
 
 <script>
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/TheHeader';
+import TheFooter from './components/TheFooter';
 
 export default {
   name: 'Contact',
   components: {
     'app-header': Header,
-    'app-footer': Footer,
+    'app-footer': TheFooter,
   },
 };
 </script>
-
-<style scoped>
-main {
-  background-color: #fff;
-  padding: 20px 10px;
-  color: var(--lightgray);
-}
-p {
-  margin-bottom: 1.6em;
-}
-a {
-  text-decoration: none;
-  color: var(--blue);
-}
-.profileImage {
-  width: 183px;
-  margin-left: 1.6em;
-}
-@media screen and (min-width: 768px) {
-  main {
-    padding: 20px 40px;
-  }
-}
-</style>

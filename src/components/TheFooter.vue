@@ -1,28 +1,28 @@
 <template>
   <footer>
-    <p>{{ msg }}<a :href="url" target="_blank">{{ designer }}</a></p>
+    <p>{{ msg }}<a :href="url" target="_blank" rel="noopener">{{ designer }}</a></p>
   </footer>
 </template>
 
 <script>
 export default {
-  name: 'Hero',
+  name: 'Footer',
   data() {
     return {
       msg: 'Designed by ',
-      url: 'multi-servicejp.be',
+      url: 'http://multi-servicejp.be',
       designer: 'Multi-Service JP',
     };
   },
 };
 </script>
 
-<style scoped>
-p{
+<style>
+footer p {
   text-align: center;
   color: #222;
 }
-a{
+footer a {
   text-decoration: none;
   color: #222;
 }

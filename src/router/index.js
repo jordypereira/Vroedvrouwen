@@ -13,21 +13,33 @@ export default new Router({
       path: '/',
       name: 'Homepage',
       component: Homepage,
+      meta: {
+        title: 'Vroedvrouwen aan huis Liesa & Marieke',
+      },
     },
     {
       path: '/wie',
       name: 'Wie',
       component: Wie,
+      meta: {
+        title: 'Wie is wie? - Vroedvrouwen aan huis Liesa & Marieke',
+      },
     },
     {
       path: '/wat',
       name: 'Wat',
       component: Wat,
+      meta: {
+        title: 'Wat doen we? - Vroedvrouwen aan huis Liesa & Marieke',
+      },
     },
     {
       path: '/contact',
       name: 'Contact',
       component: Contact,
+      meta: {
+        title: 'Contact - Vroedvrouwen aan huis Liesa & Marieke',
+      },
     },
   ],
   mode: 'history',

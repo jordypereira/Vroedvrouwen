@@ -1,6 +1,5 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <!-- eslint-disable-next-line -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span> Menu
     </button>
@@ -28,17 +27,6 @@
 export default {
   name: 'Nav',
 };
-
-/* var url = window.location;
-$('ul.nav a[href="' + url + '"]')
-  .parent()
-  .addClass('active');
-$('ul.nav a')
-  .filter(function() {
-    return this.href === url;
-  })
-  .parent()
-  .addClass('active'); */
 </script>
 
 <style scoped>
@@ -48,6 +36,13 @@ $('ul.nav a')
 }
 .navbar {
   justify-content: center;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.8);
+}
+.navbar-light .navbar-nav .router-link-active {
+  color: #000;
+  font-weight: 500;
 }
 </style>
 
