@@ -23,6 +23,7 @@ export default {
 .outer {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 .inner {
   display: flex;
@@ -31,6 +32,7 @@ export default {
   flex-flow: column nowrap;
   padding: 0px 15px;
   min-width: 300px;
+  max-width: 450px;
 }
 img {
   padding: 10px 0;
