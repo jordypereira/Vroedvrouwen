@@ -12,7 +12,8 @@ export default {
   name: 'Hero',
   data() {
     return {
-      msg: '- Vroedvrouw aan huis Liesa en Marieke -',
+      msg:
+        '- Nieuwkerken, Groot-Beveren, Zwijndrecht, Linkderoever, Burcht en Kruibeke -',
     };
   },
 };

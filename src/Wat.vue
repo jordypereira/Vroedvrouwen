@@ -15,7 +15,7 @@
       <li>Borstvoedingsbegeleiding aan huis!</li>
       </ul>
       <img src="./assets/images/buik-meet.jpg" alt="Picture of a Belly" class="img-fluid">
-      <p>Voor alle gewenste zorgen komt de vroedvrouw bij u thuis.</p>
+      <p>Voor alle gewenste zorgen komen wij bij u thuis.</p>
       <p>Bij het optreden van vragen of complicaties wordt de raad en hulp van derden (gynaecoloog, kinesist, kinderarts,…) gevraagd. Dit zorgt voor een goede multidisciplinaire zorgverlening.</p>
       <div class="row">
         <div class="col-sm">
