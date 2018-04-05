@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       msg:
-        '- Nieuwkerken, Groot-Beveren, Zwijndrecht, Linkderoever, Burcht en Kruibeke -',
+        '- Nieuwkerken, Groot-Beveren, Zwijndrecht, Linkeroever, Burcht en Kruibeke -',
     };
   },
 };
