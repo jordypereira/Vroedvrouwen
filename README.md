@@ -1,6 +1,6 @@
 # vroedvrouwen
 
-> Vroudvrouwen Lies en Annick
+> Vroedvrouwen Lies en Annick
 
 ## Build Setup
 
