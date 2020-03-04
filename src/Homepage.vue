@@ -64,7 +64,7 @@ export default {
         '<em>‘De vroedvrouw is er voor jou op eender welk moment tijdens de zwangerschap, bevalling en kraamperiode. Met al haar aandacht en deskundigheid staat zij jou bij om naar jou te luisteren, bij te staan, raad te geven, op te volgen en aan te moedigen.’</em>',
         'Om je zwangerschap bewust en positief te beleven kan je deze periode samen met ons op weg gaan. Je hebt recht op 12 terugbetaalde prenatale consultaties (individueel).',
         'Op het einde van je zwangerschap kunnen wij je bijstaan tijdens de arbeid zodat je deze periode kan beleven in een huiselijke en ontspannen sfeer.',
-        'Bij de thuiskomst staan wij voor je klaar voor de postnatale zorg. Wij komen bij je thuis langs om je bij te staan in de zorg voor je kindje en voor jezelf. Je hebt recht op 10 terugbetaalde consultaties (of meer op voorschrift).',
+        'Bij de thuiskomst staan wij voor je klaar voor de postnatale zorg. Wij komen bij je thuis langs om je bij te staan in de zorg voor je kindje en voor jezelf. Je hebt recht op 9 terugbetaalde consultaties (of meer op voorschrift).',
       ],
     };
   },
